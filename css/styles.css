@@ -1,3 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+:root {
+  --brand-color: #2e2f42;
+}
+
 .list,
 .contacts {
   list-style: none;
@@ -15,7 +25,7 @@ button {
 }
 
 .description-first-word-page-logo {
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .page-logo {
@@ -39,14 +49,7 @@ button {
   flex-grow: 0;
 }
 
-.body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
 .menu-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -56,7 +59,7 @@ button {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .menu-item,
@@ -65,12 +68,17 @@ button {
 }
 
 .modal-open-button:hover,
-.modal-open-button:focus {
+.modal-open-button:focus,
+.contacts-item-mail,
+.contacts-item-tel {
   color: #404bbf;
 }
 
+.contact-information {
+  font-style: normal;
+}
+
 .contacts-item-tel {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -84,7 +92,6 @@ button {
 }
 
 .contacts-item-mail {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -98,12 +105,11 @@ button {
 }
 
 .main-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  background-color: #2e2f42;
+  background-color: var(--brand-color);
 
   /* or 107% */
   text-align: center;
@@ -114,7 +120,6 @@ button {
 }
 
 .modal-open-button {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -136,7 +141,6 @@ button {
 }
 
 .principles {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -146,7 +150,7 @@ button {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: #2e2f42;
+  color: var(--brand-color);
 
   /* Inside auto layout */
   flex: none;
@@ -155,7 +159,6 @@ button {
 }
 
 .principles-description {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -174,7 +177,6 @@ button {
 }
 
 .section-description {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -186,11 +188,10 @@ button {
   text-transform: capitalize;
 
   /* NAVY BLUE */
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .name {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -201,7 +202,7 @@ button {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: #2e2f42;
+  color: var(--brand-color);
 
   /* Inside auto layout */
   flex: none;
@@ -210,7 +211,6 @@ button {
 }
 
 .position {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -251,12 +251,11 @@ button {
 }
 
 .footer-description {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #2e2f42;
+  background-color: var(--brand-color);
 
   /* or 150% */
   letter-spacing: 0.02em;
