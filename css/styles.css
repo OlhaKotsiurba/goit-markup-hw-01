@@ -69,12 +69,8 @@ button {
 
 .modal-open-button:hover,
 .modal-open-button:focus,
-.contacts-item-mail,
-.contacts-item-tel,
 .menu-item:hover,
-.menu-item:focus,
-.menu-item-studio:hover,
-.menu-item-studio:focus {
+.menu-item:focus {
   background-color: #404bbf;
 }
 
