@@ -4,8 +4,8 @@
 }
 
 .link,
-.page-logo-first-part,
-.page-logo-second-part {
+.page-logo,
+.footer-logo {
   text-decoration: none;
 }
 
@@ -14,21 +14,17 @@ button {
   cursor: pointer;
 }
 
-.page-logo-first-part {
+.description-first-word-page-logo {
   color: #4d5ae5;
 }
 
-.page-logo-second-part {
-  color: #2e2f42;
-}
-
-.page-logo-first-part,
-.page-logo-second-part {
+.page-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  color: #2e2f42;
 
   /* identical to box height, or 117% */
   display: flex;
@@ -41,6 +37,7 @@ button {
   order: 0;
   flex-grow: 0;
 }
+
 .menu-link {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -183,4 +180,80 @@ button {
 
   /* NAVY BLUE */
   color: #2e2f42;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.position {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #f4f4fd;
+  background-color: #2e2f42;
+
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-description {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2e2f42;
+
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
 }
