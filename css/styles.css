@@ -72,8 +72,15 @@ button {
 .contacts-item-mail,
 .contacts-item-tel,
 .menu-item:hover,
-.menu-item:focus {
+.menu-item:focus,
+.menu-item-studio:hover,
+.menu-item-studio:focus {
   background-color: #404bbf;
+}
+
+.menu-item-studio:hover,
+.menu-item-studio:focus {
+  color: #404bbf;
 }
 
 .contact-information {
