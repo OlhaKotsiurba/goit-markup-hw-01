@@ -15,7 +15,7 @@ button {
 }
 
 .description-first-word-page-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .page-logo {
@@ -24,13 +24,14 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #2e2f42;
+  color: #4d5ae5;
 
   /* identical to box height, or 117% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 
   /* Inside auto layout */
   flex: none;
@@ -40,6 +41,8 @@ button {
 
 .body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .menu-link {
@@ -63,7 +66,7 @@ button {
 
 .modal-open-button:hover,
 .modal-open-button:focus {
-  color: #9747ff;
+  color: #404bbf;
 }
 
 .contacts-item-tel {
@@ -233,7 +236,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   color: #f4f4fd;
-  background-color: #2e2f42;
+  background-color: #4d5ae5;
 
   /* identical to box height, or 117% */
   display: flex;
