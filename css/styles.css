@@ -70,8 +70,10 @@ button {
 .modal-open-button:hover,
 .modal-open-button:focus,
 .contacts-item-mail,
-.contacts-item-tel {
-  color: #404bbf;
+.contacts-item-tel,
+.menu-item:hover,
+.menu-item:focus {
+  background-color: #404bbf;
 }
 
 .contact-information {
@@ -105,7 +107,7 @@ button {
 }
 
 .main-information {
-  color: var(--brand-color);
+  background-color: var(--brand-color);
 }
 
 .main-title {
@@ -203,6 +205,14 @@ button {
   color: var(--brand-color);
 }
 
+.our-team-descriprion {
+  background-color: #f4f4fd;
+}
+
+.our-team-identification {
+  background-color: #ffffff;
+}
+
 .name {
   font-style: normal;
   font-weight: 500;
@@ -264,6 +274,10 @@ button {
 
 .under-logo-and-slogan {
   background-color: var(--brand-color);
+}
+
+.description-first-word-under-logo {
+  color: #f4f4fd;
 }
 
 .footer-description {
