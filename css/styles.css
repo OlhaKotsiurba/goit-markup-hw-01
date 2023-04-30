@@ -146,6 +146,23 @@ button {
   flex-grow: 0;
 }
 
+.modal-open-button-all {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.modal-open-button-all:hover,
+.modal-open-button-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
 .principles {
   font-style: normal;
   font-weight: 500;
