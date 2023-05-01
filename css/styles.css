@@ -78,8 +78,10 @@ button {
 .menu-item-studio:focus,
 .page-logo:hover,
 .page-logo:focus,
-.contacts-item:hover,
-.contacts-item:focus,
+.contacts-tel:hover,
+.contacts-tel:focus,
+.contacts-mail:hover,
+.contacts-mail:focus,
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -89,20 +91,7 @@ button {
   font-style: normal;
 }
 
-.contacts-item-tel {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-  color: #434455;
-}
-
-.contacts-item-mail {
+.contacts-item {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -318,4 +307,19 @@ button {
 
   /* CLOUD */
   color: #f4f4fd;
+}
+
+.image-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
