@@ -75,7 +75,13 @@ button {
 }
 
 .menu-item-studio:hover,
-.menu-item-studio:focus {
+.menu-item-studio:focus,
+.page-logo:hover,
+.page-logo:focus,
+.contacts-item:hover,
+.contacts-item:focus,
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -225,7 +231,7 @@ button {
   color: var(--brand-color);
 }
 
-.our-team-descriprion {
+.our-team-description {
   background-color: #f4f4fd;
 }
 
