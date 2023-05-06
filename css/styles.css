@@ -68,14 +68,12 @@ button {
 }
 
 .modal-open-button:hover,
-.modal-open-button:focus,
-.menu-item:hover,
-.menu-item:focus {
+.modal-open-button:focus {
   background-color: #404bbf;
 }
 
-.menu-item-studio:hover,
-.menu-item-studio:focus,
+.menu-item:hover,
+.menu-item:focus,
 .page-logo:hover,
 .page-logo:focus,
 .contacts:hover,
@@ -271,7 +269,6 @@ button {
   font-size: 18px;
   line-height: 1.17;
   color: #4d5ae5;
-  background-color: #4d5ae5;
 
   /* identical to box height, or 117% */
   display: flex;
